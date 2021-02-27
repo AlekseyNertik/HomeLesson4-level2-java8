@@ -17,5 +17,4 @@
     <TextArea fx:id="textArea" GridPane.rowIndex="2" GridPane.columnIndex="0" />
     <TextField fx:id="textField" GridPane.rowIndex="6" GridPane.columnIndex="0" />
 
-
 </GridPane>
