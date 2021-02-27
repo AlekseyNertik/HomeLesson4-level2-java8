@@ -9,7 +9,7 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyCodeCombination;
 
 public class Controller
-//        implements Initialize
+//        implements Initialize - почему-то выдает ошибку и override не помогает
 {
 
     @FXML
@@ -24,7 +24,7 @@ public class Controller
         textField.requestFocus();
         textField.clear();
     }
-//    @Override
+//    @Override -- выдает ошибку
 //    public void initialize (URL location, ResourseBundle resourses) {
 //        sendButton.setDefaultButton(true);
 //        Platform.runLater(() -> textField.requestFocus());
