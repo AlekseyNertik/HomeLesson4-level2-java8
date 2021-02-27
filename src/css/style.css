@@ -1,0 +1,28 @@
+.root{
+    -fx-font-size: 16;
+}
+
+.button{
+    -fx-background-color: aqua;
+    -fx-font-size: 12;
+}
+
+#btnHello{
+    -fx-background-color: aquamarine;
+}
+
+.button:hover, #btnHello:hover{
+    -fx-background-color: khaki;
+    -fx-text-fill: green;
+    -fx-font-weight: bold;
+}
+
+.text-area{
+    -fx-background-color: coral;
+    -fx-control-inner-background: yellow;
+    -fx-text-fill: blue;
+    -fx-highlight-text-fill: deeppink;
+    -fx-highlight-fill: orange;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+}
